@@ -760,8 +760,8 @@ h1, h2, h3, h4, h5, h6{
 	color: #fff;
 }
 .waxon_tm_modalbox_about .close .svg{
-	width: 50px;
-	height: 50px;
+	width: 32px;
+	height: 32px;
 }
 .waxon_tm_modalbox_about .description_wrap{
 	position: relative;
@@ -939,8 +939,8 @@ h1, h2, h3, h4, h5, h6{
 	position: absolute;
 	left: 0px;
 	top: 5px;
-	width: 50px;
-	height: 50px;
+	width: 32px;
+	height: 32px;
 	color: #000;
 	
 	-webkit-transition: all .4s ease;
@@ -950,7 +950,7 @@ h1, h2, h3, h4, h5, h6{
 	        transition: all .4s ease;
 }
 .waxon_tm_service ul li .details{
-	padding-left: 75px;
+	padding-left: 48px;
 }
 .waxon_tm_service ul li .details h3{
 	margin: 0px;
@@ -1297,8 +1297,8 @@ h1, h2, h3, h4, h5, h6{
 	width: 100%;
 }
 .waxon_tm_testimonials .quote_list ul li .svg{
-	width: 50px;
-	height: 50px;
+	width: 32px;
+	height: 32px;
 	color: #000;
 	margin-bottom: 30px;
 	opacity: 0;
@@ -1672,8 +1672,8 @@ h1, h2, h3, h4, h5, h6{
 	color: #fff;
 }
 .waxon_tm_modalbox_news .close .svg{
-	width: 50px;
-	height: 50px;
+	width: 32px;
+	height: 32px;
 }
 .waxon_tm_modalbox_news .description_wrap{
 	position: relative;
@@ -1797,8 +1797,8 @@ body.modal{
 	top: 10px;
 }
 .waxon_tm_modalbox_news .main_content .icon .svg{
-	width: 40px;
-	height: 40px;
+	width: 32px;
+	height: 32px;
 	color: #000;
 }
 .waxon_tm_modalbox_news .news_share{
@@ -2030,8 +2030,8 @@ body.modal{
 }
 .waxon_tm_copyright .copyright_inner .social .svg{
 	color: #fff;
-	width: 17px;
-	height: 17px;
+	width: 16px;
+	height: 16px;
 }
 
 /*---------------------------------------------------*/
