@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6{
 	float: left;
 	clear: both;
 	background-color: #fff;
-	padding: 20px 0px;
+	padding: 16px 0px;
 	border-bottom: 1px solid rgba(0,0,0,.2);
 }
 .waxon_tm_mobile_menu .topbar_in{
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6{
 	justify-content: space-between;
 }
 .my_trigger .hamburger{
-    padding: 15px 15px;
+    padding: 16px 16px;
     display: inline-block;
     cursor: pointer;
     transition-property: opacity, filter;
@@ -421,7 +421,7 @@ h1, h2, h3, h4, h5, h6{
 	font-family: "Open Sans";
 	font-weight: 500;
 }
-.waxon_tm_mobile_menu .logo img{max-width: 32px;}
+.waxon_tm_mobile_menu .logo img{max-width: 24px;}
 
 /*---------------------------------------------------*/
 /*	04) WAXON HERO
@@ -2030,8 +2030,8 @@ body.modal{
 }
 .waxon_tm_copyright .copyright_inner .social .svg{
 	color: #fff;
-	width: 16px;
-	height: 16px;
+	width: 24px;
+	height: 24px;
 }
 
 /*---------------------------------------------------*/
@@ -2435,11 +2435,11 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	.waxon_tm_hero .background .leftpart{width: 0%;}
 	.waxon_tm_hero .background .rightpart{padding-left: 0px;}
 	.waxon_tm_modalbox_news .box_inner{width: 100%;top: 0px;bottom: 0px;}
-	.waxon_tm_modalbox_news .close a{color: #000;}
+	.waxon_tm_modalbox_news .close a{color: #fff;}
 	.waxon_tm_modalbox_news .close{left: auto;right: 5px;top: 25px;}
 	.waxon_tm_modalbox_news .close .svg{width: 25px;height: 25px;}
 	.waxon_tm_modalbox_about .box_inner{width: 100%;top: 0px;bottom: 0px;}
-	.waxon_tm_modalbox_about .close a{color: #000;}
+	.waxon_tm_modalbox_about .close a{color: #fff;}
 	.waxon_tm_modalbox_about .close{left: auto;right: 5px;top: 25px;}
 	.waxon_tm_modalbox_about .close .svg{width: 25px;height: 25px;}
 }
