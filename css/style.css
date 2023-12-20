@@ -677,6 +677,16 @@ h1, h2, h3, h4, h5, h6{
 	clear: both;
 	float: left;
 }
+.waxon_tm_button2{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 13px 50px;
+	border: 2px solid #000;
+	font-style: italic;
+	font-size: 16px;
+}
 .waxon_tm_button a{
 	text-decoration: none;
 	color: #fff;
