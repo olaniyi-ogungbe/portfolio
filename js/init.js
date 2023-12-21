@@ -172,35 +172,6 @@ jQuery(document).ready(function(){
 	}
 	waxon_tm_hero_slider();
 	
-	// -------------------------------------------------
-	// -------------  SLIDER KENBURN  ------------------
-	// -------------------------------------------------
-
-	function waxon_tm_kenburn_slider(){
-		
-		var mySlider	= jQuery('.vegas-slide-inner');
-		
-		if(mySlider.length){
-			var dataImages	= jQuery('.vegas-slide-inner').data('images');
-			var nameArray	= dataImages.split(',');
-			var html	= []; 
-
-		    for(var i=0;i<nameArray.length;i++){
-			   html.push({src:nameArray[i]});
-		    }	
-		   jQuery(function() {
-			  jQuery('.waxon_tm_hero .overlay_slider').vegas({
-			  timer:false,	
-			  animation: [ 'kenburnsUp', 'kenburnsLeft', 'kenburnsRight'],
-			  delay:7000,
-			  slides: html
-			  });
-		   });
-
-		}
-	   
-	}
-	waxon_tm_kenburn_slider();
 	
 	// -------------------------------------------------
 	// -------------------  ANCHOR ---------------------

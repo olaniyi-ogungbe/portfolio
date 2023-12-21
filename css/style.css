@@ -2452,7 +2452,7 @@ body.dark .waxon_tm_settings .cursor li .svg,
 
 @media (max-width: 1600px){
 	.container{max-width: 1120px;}
-	.waxon_tm_hero .content_inner h3{font-size: 80px;}
+	.waxon_tm_hero .content_inner h3{font-size: 100px;}
 	.waxon_tm_news ul li .details .title a{font-size: 17px;}
 	.waxon_tm_news ul li .details{padding: 30px 30px 25px 30px;}
 }
