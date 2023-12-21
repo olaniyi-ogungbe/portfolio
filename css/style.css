@@ -522,6 +522,7 @@ h1, h2, h3, h4, h5, h6{
 	display: inline-block;
 	padding-top: 20px;
 	font-style: italic;
+	font-size: 24px;
 }
 .waxon_tm_down{
 	position: absolute;
@@ -680,12 +681,26 @@ h1, h2, h3, h4, h5, h6{
 .waxon_tm_button2{
 	width: 100%;
 	height: auto;
-	clear: both;
-	float: left;
 	padding: 13px 50px;
-	border: 2px solid #000;
 	font-style: italic;
 	font-size: 16px;
+	line-height: 24px;
+	background-color: #fff;
+	border: 2px solid #fff;
+	
+}
+.waxon_tm_button2:hover{
+	
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	cursor: pointer;
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+	
 }
 .waxon_tm_button a{
 	text-decoration: none;
@@ -1856,6 +1871,7 @@ body.modal{
 	position: relative;
 	margin-bottom: 150px;
 	padding-top: 205px;
+	align-items: center;
 }
 .waxon_tm_contact .contact_inner{
 	width: 100%;
@@ -1946,7 +1962,7 @@ body.modal{
 	width: 50%;
 	padding-left: 25px;
 	position: relative;
-	top:6px;
+	
 }
 .waxon_tm_contact .map_wrap .map {
   min-height: 359px;
