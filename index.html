@@ -547,26 +547,24 @@
 				<div class="wrapper">
 					<div class="left wow fadeInLeft" data-wow-duration="0.8s">
 						<div class="fields">
-							<form action="/" method="post" class="contact_form" id="contact_form" autocomplete="off">
+							<form name="contact" method="post" class="contact_form" id="contact_form" autocomplete="off" data-netlify="true">
 								<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
 								<div class="empty_notice"><span>Please Fill Required Fields</span></div>
 								<div class="first">
 									<ul>
 										<li>
-											<input id="name" type="text" placeholder="Name">
+											<input id="name" type="text" placeholder="Name" name="name">
 										</li>
 										<li>
-											<input id="email" type="text" placeholder="Email">
+											<input id="email" type="text" placeholder="Email" name="email">
 										</li>
 									</ul>
 								</div>
 								<div class="last">
-									<textarea id="message" placeholder="Message"></textarea>
+									<textarea id="message" placeholder="Message" name="message"></textarea>
 								</div>
-								<div class="waxon_tm_button" data-position="left">
-									<a id="send_message" href="#">
-										<span>Send Message</span>
-									</a>
+								<div>
+									<button type="submit" id="send_message" class="waxon_tm_button2" data-position="left">Send Message</button>
 								</div>
 								
 								<!-- If you want to change mail address to yours, please open modal.php and go to line 4 -->
