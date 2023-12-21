@@ -686,6 +686,7 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 16px;
 	line-height: 24px;
 	background-color: #fff;
+	color: #000;
 	border: 2px solid #fff;
 	
 }
@@ -2536,4 +2537,8 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	.waxon_tm_modalbox_news .details .title{font-size: 21px;}
 	.waxon_tm_modalbox_about .counter ul{margin: 0px;}
 	.waxon_tm_modalbox_about .counter ul li{width: 100%;padding-left: 0px;}
+}
+
+.link{
+	color: #bbbbbb;
 }
